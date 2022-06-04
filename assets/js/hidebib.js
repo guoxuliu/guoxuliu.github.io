@@ -2,7 +2,7 @@ function hideallbibs()
 {
     var el = document.getElementsByTagName("div") ;
     for (var i = 0 ; i < el.length ; ++i) {
-        if (el[i].className == "media-body") {
+        if (el[i].className == "col-sm-9") {
             var bib = el[i].getElementsByTagName("pre") ;
             if (bib.length > 0) {
                 bib [0] .style.display = 'none' ;
