@@ -212,7 +212,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
-.publications ol.bibliography li .links a.btn { color: var(--global-text-color); border: 1px solid var(--global-text-color); border-radius: .2rem; padding-left: 0.35rem; padding-right: 0.35rem; padding-top: 0.1rem; padding-bottom: 0.1rem; font-size: 13px;}
+.publications ol.bibliography li .links a.btn { color: var(--global-text-color); border: 1px solid var(--global-text-color); border-radius: .2rem; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.2rem; padding-bottom: 0.2rem; font-size: 13px; text-transform: none}
 
 .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
 
