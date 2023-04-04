@@ -264,8 +264,15 @@
 
 
 <footer class="fixed-bottom">
-	<%@ include "/assets/footer.html" %>
+	<div class="footerpage"></div>
 </footer>
+
+<script src="https://www.iqjty.com/js/jquery.min.js"></script>
+<script>
+    $(function(){
+        $(".footerpage").load("/assets/footer.html");
+    });
+</script>
 
 
   </body>
