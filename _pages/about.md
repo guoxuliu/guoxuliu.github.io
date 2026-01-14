@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Qibin's Homepage"
+title: "Guoxu's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
