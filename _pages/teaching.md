@@ -2,7 +2,11 @@
 permalink: /teaching/
 title: "Teaching"
 excerpt: ""
-author_profile: true
+author_profile: false
 ---
 
-Deep learning, 2022-now, spring.
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}

@@ -1,0 +1,82 @@
+// 人员列表容器样式
+.people-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+    justify-content: flex-start;
+  }
+  
+  // 人物卡片样式（每行4个）
+  .person-card {
+    width: calc(25% - 1.5rem);
+    text-align: center;
+    box-sizing: border-box;
+    // 让卡片内元素垂直居中排列，控制间距
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+// 卡片链接样式（包裹照片+文字）
+.person-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none !important; // 去掉链接默认下划线
+    color: #0066cc !important;       // 姓名默认蓝色
+}
+  
+  // 圆形照片样式 + 悬浮放大动效
+.person-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #eee;
+    transition: transform 0.3s ease; // 过渡动画，让放大更丝滑
+    margin-bottom: 0.8rem;          // 照片和姓名的间距
+  }
+
+  // 鼠标悬浮在照片/链接上时，照片放大
+.person-link:hover .person-img {
+    transform: scale(1.05); // 放大1.05倍（可调整为1.1更大）
+   }
+  
+// 姓名文字样式（移除手动黑色，继承链接的蓝色）
+.person-name {
+    margin: 0; // 清除p标签默认边距，避免间距混乱
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    // 关键：删除 color: #333; 让文字继承.person-link的蓝色
+    text-decoration: none !important; // 强制确保文字无下划线
+    color: inherit !important;        // 强制继承链接的颜色
+  }
+
+// 悬浮时文字样式（无下划线+颜色微调）
+.person-link:hover .person-name {
+    text-decoration: none !important; // 强制无下划线
+    color: #0055bb !important;        // 悬浮时蓝色稍深（可选：改为 #0066cc 保持不变）
+  }
+
+// 新增：时间段文字样式（person-info类）
+.person-info {
+    margin: 0; // 仅保留和姓名的上间距，清除其他边距
+    font-size: 1rem;     // 字号稍小，突出姓名
+    font-weight: 400;      // 字体稍细
+    line-height: 1.2;
+  }
+  
+  // 响应式适配
+  @media (max-width: 768px) {
+    .person-card {
+      width: calc(50% - 1rem);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .person-card {
+      width: 100%;
+    }
+  }

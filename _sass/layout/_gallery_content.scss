@@ -1,0 +1,96 @@
+// 照片画廊容器 - 全局最大宽度改为2100px
+.photo-gallery {
+  width: 100%;
+  max-width: 2100px; // 从1600px改为2100px
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+// 统一行容器样式（行宽度保持800px不变，仅放宽全局容器）
+.photo-row {
+  width: 100%;       
+  max-width: 800px;  // 行内图片宽度仍保持800px，不随全局容器变化
+  margin: 20px auto; // 水平居中，上下间距
+  box-sizing: border-box;
+}
+
+// 单张照片样式 - 宽度800px不变，高度保持缩减+裁剪
+.photo-single {
+  @extend .photo-row; // 继承行宽度，保持800px不变
+  text-align: center;
+
+  .photo-wrapper {
+    position: relative;
+    width: 100%;       // 宽度不变（最大800px）
+    aspect-ratio: 25/6; // 高度仍保持192px（800px宽时），裁剪多余部分
+    border-radius: 8px;
+    overflow: hidden;   // 裁剪多余部分
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;      // 高度填满wrapper，超出部分裁剪
+    object-fit: cover; // 保持比例，裁剪多余高度/宽度
+    object-position: center; // 裁剪时保留图片中心主体
+    display: block;    // 消除图片底部空白
+  }
+
+  // 可选：照片描述文字
+  .photo-caption {
+    margin-top: 8px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+// 两张照片并列样式 - 宽度、高度逻辑不变
+.photo-double {
+  @extend .photo-row; // 继承行宽度，保证800px一致
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;          // 两张图片间距不变
+
+  .photo-item {
+    flex: 1;
+    min-width: calc(50% - 10px); // 平分800px宽度（约390px/张）
+    max-width: calc(50% - 10px); // 强制平分，避免宽度不一致
+
+    .photo-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 25/6; // 与单张保持相同高度，同步裁剪
+      border-radius: 8px;
+      overflow: hidden;   // 裁剪多余部分
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;  // 保持比例，裁剪多余部分
+      object-position: center; // 裁剪时居中保留主体
+      display: block;     // 消除底部空白
+    }
+
+    .photo-caption {
+      margin-top: 8px;
+      color: #666;
+      font-size: 14px;
+    }
+  }
+}
+
+// 响应式适配：小屏幕下两张照片自动变成单列
+@media (max-width: 768px) {
+  .photo-double {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .photo-double .photo-item {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
