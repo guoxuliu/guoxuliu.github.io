@@ -7,7 +7,7 @@ author_profile: false
 
 <div class="profile-container">
   <div>
-    <img src="/images/guoxu.jpg" class="profile-img">
+    <img src="/images/people/xpl.jpg" class="profile-img">
     <p>Undergraduate (2023-2027)</p>
     <p>数据科学与大数据技术专业</p>
   </div>
