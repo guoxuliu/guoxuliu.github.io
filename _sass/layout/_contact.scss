@@ -1,40 +1,38 @@
 // 定义移动端断点（768px）
 $mobile-breakpoint: 768px;
 
-// -------------------------- 电脑端样式：核心对齐逻辑 --------------------------
+// -------------------------- 电脑端样式（不变） --------------------------
 .contact-content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-// 800px宽的父容器：地图和文字都在里面，地图位置不变
 .map-wrapper {
   display: block;
-  margin: 0; // 取消居中，保持地图原有靠左位置
+  margin: 0;
+  width: 800px;
 }
 
-// 电脑端iframe：尺寸完全不变
 .map-iframe iframe {
   width: 800px !important;
   height: 500px !important;
   border: none;
 }
 
-// 地图链接：在800px容器内居中，精准对齐地图
 .map-links {
   white-space: nowrap;
-  text-align: center; // 在800px容器内居中
+  text-align: center;
   padding: 6px 0;
-  width: 100%; // 占满800px容器宽度
+  width: 100%;
 }
 
-// 移动端静态图：默认隐藏
+// 移动端静态图：默认隐藏（电脑端），强制提升移动端显示优先级
 .map-static {
-  display: none;
+  display: none !important; /* 电脑端强制隐藏 */
 }
 
-// -------------------------- 移动端适配（无变化） --------------------------
+// -------------------------- 移动端适配（关键修复） --------------------------
 @media (max-width: $mobile-breakpoint) {
   .contact-content {
     padding: 0 1rem;
@@ -46,15 +44,26 @@ $mobile-breakpoint: 768px;
     word-wrap: break-word;
   }
 
-  // 隐藏电脑端地图和链接
+  // 隐藏电脑端内容
   .map-wrapper {
     display: none !important;
   }
-  // 显示移动端静态图
+
+  // 核心修复：强制显示移动端静态图（最高优先级）
   .map-static {
     display: block !important;
-    width: 100%;
-    margin: 0 auto;
+    width: 100% !important;
+    margin: 1rem auto 0 !important;
+    visibility: visible !important; /* 确保不被隐藏 */
+  }
+
+  // 静态图内图片样式（兜底）
+  .map-static img {
+    width: 100% !important;
+    height: auto !important;
+    border: none !important;
+    border-radius: 8px !important;
+    display: block !important;
   }
 
   // 菜单栏适配
