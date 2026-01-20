@@ -29,7 +29,7 @@ Contact
       
   <!-- 移动端静态图 -->
   <div class="map-static">
-      <a href="https://cn.bing.com/maps/search?cp=36.7174~119.1802&lvl=15.597809669394213&style=r" target="_blank">
+      <a href="https://www.bing.com/maps?cc=cn&forcev8=1" target="_blank">
           <img src="/images/wfu_map.jpg" 
                style="width:100%; height:auto; border:none; border-radius:8px;">
           <p style="text-align:center; margin-top:0.5rem; font-size:0.85rem; color:#666;">View Larger Map</p>
