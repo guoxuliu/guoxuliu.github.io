@@ -19,7 +19,7 @@ author_profile: false
         <p class="gallery-title">NTCI 2025 in Jinan</p>
       </div>
     </div>
-    </a>
+    </a> 
 
 
 
