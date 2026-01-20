@@ -1,0 +1,68 @@
+// 定义移动端断点（和其他页面保持一致）
+$mobile-breakpoint: 768px;
+
+// -------------------------- 电脑端样式：完全保留，无修改 --------------------------
+.contact-content {
+  width: 100%;
+  max-width: 1200px; // 和publications页面保持一致的最大宽度
+  margin: 0 auto;
+}
+
+.map-container {
+  margin-top: 1rem;
+  // 电脑端保留iframe原尺寸
+  iframe {
+    width: 800px;
+    height: 500px;
+    border: none;
+  }
+  .map-links {
+    white-space: nowrap;
+    text-align: center;
+    width: 800px;
+    padding: 6px 0;
+  }
+}
+
+// -------------------------- 仅移动端适配：解决菜单栏和排版问题 --------------------------
+@media (max-width: $mobile-breakpoint) {
+  // 1. 修复菜单栏溢出问题：让contact内容自适应屏幕
+  .contact-content {
+    padding: 0 1rem; // 和publications页面保持一致的内边距
+    overflow-x: hidden; // 禁止横向滚动，避免挤压菜单栏
+  }
+
+  // 2. 优化移动端文本显示：和publications页面文字大小一致
+  .contact-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+    word-wrap: break-word; // 长地址自动换行，不溢出
+  }
+
+  // 3. 适配地图iframe：取消固定宽高，自适应移动端屏幕
+  .map-container {
+    width: 100%; // 占满屏幕宽度
+    iframe {
+      width: 100% !important; // 覆盖iframe固定宽度
+      height: 300px !important; // 移动端地图高度适配
+      max-height: 400px;
+    }
+    .map-links {
+      width: 100%; // 链接栏自适应宽度
+      white-space: normal; // 取消强制不换行
+      text-align: center;
+      padding: 8px 0;
+      font-size: 0.85rem; // 移动端链接文字缩小
+    }
+  }
+
+  // 4. 确保菜单栏样式和publications页面一致（继承全局移动端样式）
+  .nav-toggle {
+    display: block !important; // 强制显示移动端菜单按钮（如果被覆盖）
+  }
+  .site-nav {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}

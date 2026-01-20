@@ -30,9 +30,9 @@ author:
   avatar           : "people/guoxu.webp"
   name             : "Guoxu Liu (刘国旭)"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor"
+  bio              : "Associate professor, School of Computer Engineering, Weifang University"
   location         : "Weifang, China"
-  employer         : "Weifang University"
+  employer         : # "Weifang University"
   uri              : # URL
   email            : "liuguoxu@wfu.edu.cn" 
 
