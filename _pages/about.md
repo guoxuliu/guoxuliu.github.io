@@ -10,7 +10,7 @@ redirect_from:
 
 About me
 ======
-I am an associate professor in the [School of Computer Engineering](https://cs.wfu.edu.cn) at [Weifang University](http://www.wfu.edu.cn). I received my Ph.D degree from the Department of Electronics Engineering at [Pusan National University](http://www.pusan.ac.kr/eng/Main.do) in 2020, advised by Prof. Jae Ho Kim. Before that, I received my B.S. Degree in School of Information Science and Engineering from [Shandong University](http://www.sdu.edu.cn) in 2011 and M.S. Degree in School of Electrical and Electronic Engineering from [Nanyang Technological University](http://www.ntu.edu.sg/Pages/home.aspx) in 2014. My research interests include image processing, computer vision, and deep learning, etc.
+I am an associate professor in the [School of Computer Engineering](https://cs.wfu.edu.cn) at [Weifang University](http://www.wfu.edu.cn). I received my Ph.D degree from the Department of Electronics Engineering at [Pusan National University](http://www.pusan.ac.kr/eng/Main.do) in 2020, advised by Prof. Jae Ho Kim. Before that, I received my B.S. Degree in School of Information Science and Engineering from [Shandong University](http://www.sdu.edu.cn) in 2011 and M.S. Degree in School of Electrical and Electronic Engineering from [Nanyang Technological University](http://www.ntu.edu.sg/Pages/home.aspx) in 2014. My current research interests include image processing, computer vision, and deep learning.
 
 ---
 
