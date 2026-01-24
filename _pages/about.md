@@ -16,8 +16,8 @@ I am an associate professor in the [School of Computer Engineering](https://cs.w
 
 News
 ======
-+ [2025-10-06] One paper is accepted to NTCI2025.
-+ [2024-08-26] One paper is accepted to Frontiers in Plant Science.
++ [2025-10-06] One paper accepted to NTCI2025.
++ [2024-08-26] One paper accepted to Frontiers in Plant Science.
 
 ---
 
