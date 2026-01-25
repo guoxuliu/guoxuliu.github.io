@@ -12,6 +12,10 @@ author_profile: false
 
 <div style="text-align: right"> # student under my (co-)supervision <br /> * corresponding author</div>
 
+## 2026
+
++ Chunlei Chen, Jinkui Hou, Jiangyan Dai, Huihui Zhang, Guoxu Liu, Yujie Li, Lu Hong, and Jia Liu. **Unsupervised Learning on Stream Data: Clusterability Analysis in a Joint Perspective under Incremental and Parallel Constraints**. International Journal of Pattern Recognition and Artificial Intelligence, 2026. [[PDF](https://doi.org/10.1142/S021800142651002X)]
+
 ## 2025
 
 + Guoxu Liu, Qijia Su#, Qing Xu#, Hanhao Yu#, Hao Sun, Jingqi Li#, Chunlei Chen, and Yujie Li. **Fire and Smoke Detection via YOLOv9 with FasterNet and Spatial-Channel Synergistic Attention**. 2025 International Conference on New Trends in Computational Intelligence (NTCI), 2025, IEEE. (October 17-19, 2025, Jinan, China) [[PDF](https://doi.org/10.1109/NTCI67886.2025.11308161)]
@@ -27,7 +31,7 @@ author_profile: false
 
 ## 2023
 
-+ Philippe Lyonel Touko Mbouembe, Guoxu Liu*, Jordane Sikati, Suk Chan Kim, and Jae Ho Kim. An efficient tomato-detection method based on improved YOLOv4-tiny model in complex environment. Frontiers in Plant Science, 14:1150958, 2023. [[PDF](https://doi.org/10.3389/fpls.2023.1150958)]
++ Philippe Lyonel Touko Mbouembe, Guoxu Liu*, Jordane Sikati, Suk Chan Kim, and Jae Ho Kim. **An efficient tomato-detection method based on improved YOLOv4-tiny model in complex environment**. Frontiers in Plant Science, 14:1150958, 2023. [[PDF](https://doi.org/10.3389/fpls.2023.1150958)]
 
 
 ## 2022
