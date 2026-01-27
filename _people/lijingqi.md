@@ -16,12 +16,12 @@ author_profile: false
 
 ## Research Interests
 
-+ Computer Vision
++ Computer vision
 + Object detection
 
 ## Publications & Awards
 
-1. Guoxu Liu, Qijia Su, Qing Xu, Hanhao Yu, Hao Sun, **Jingqi Li**, Chunlei Chen, and Yujie Li. Fire and Smoke Detection via YOLOv9 with FasterNet and Spatial-Channel Synergistic Attention. **2025 International Conference on New Trends in Computational Intelligence (NTCI)**, 2025, IEEE. (October 17-19, 2025, Jinan, China) [[PDF](https://doi.org/10.1109/NTCI67886.2025.11308161)]
+1. Guoxu Liu, Qijia Su, Qing Xu, Hanhao Yu, Hao Sun, **Jingqi Li**, Chunlei Chen, and Yujie Li. Fire and smoke detection via YOLOv9 with fasternet and spatial-channel synergistic attention. **2025 International Conference on New Trends in Computational Intelligence (NTCI)**, 2025, IEEE. (October 17-19, 2025, Jinan, China) [[PDF](https://doi.org/10.1109/NTCI67886.2025.11308161)]
 1. **第十九届挑战杯大学生课外学术科技作品竞赛校赛二等奖**，深度学习驱动的设施蔬菜病害诊断系统，2025.03，参与.
 1. **第十九届挑战杯大学生课外学术科技作品竞赛校赛二等奖**，“机”具慧眼--基于深度学习的无人机作物识别技术，2025.03，参与.
 1. **第十九届挑战杯大学生课外学术科技作品竞赛校赛一等奖**，智网蔬安--面向设施蔬菜的智能病害诊断系统，2025.03，参与.

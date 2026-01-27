@@ -14,18 +14,18 @@ author_profile: false
 
 ## 2026
 
-+ Chunlei Chen, Jinkui Hou, Jiangyan Dai, Huihui Zhang, Guoxu Liu, Yujie Li, Lu Hong, and Jia Liu. **Unsupervised Learning on Stream Data: Clusterability Analysis in a Joint Perspective under Incremental and Parallel Constraints**. International Journal of Pattern Recognition and Artificial Intelligence, 2026. [[PDF](https://doi.org/10.1142/S021800142651002X)]
++ Chunlei Chen, Jinkui Hou, Jiangyan Dai, Huihui Zhang, Guoxu Liu, Yujie Li, Lu Hong, and Jia Liu. **Unsupervised learning on stream data: clusterability analysis in a joint perspective under incremental and parallel constraints**. International Journal of Pattern Recognition and Artificial Intelligence, 2026. [[PDF](https://doi.org/10.1142/S021800142651002X)]
 
 ## 2025
 
-+ Guoxu Liu, Qijia Su#, Qing Xu#, Hanhao Yu#, Hao Sun, Jingqi Li#, Chunlei Chen, and Yujie Li. **Fire and Smoke Detection via YOLOv9 with FasterNet and Spatial-Channel Synergistic Attention**. 2025 International Conference on New Trends in Computational Intelligence (NTCI), 2025, IEEE. (October 17-19, 2025, Jinan, China) [[PDF](https://doi.org/10.1109/NTCI67886.2025.11308161)]
++ Guoxu Liu, Qijia Su#, Qing Xu#, Hanhao Yu#, Hao Sun, Jingqi Li#, Chunlei Chen, and Yujie Li. **Fire and smoke detection via YOLOv9 with fasternet and spatial-channel synergistic attention**. 2025 International Conference on New Trends in Computational Intelligence (NTCI), 2025, IEEE. (October 17-19, 2025, Jinan, China) [[PDF](https://doi.org/10.1109/NTCI67886.2025.11308161)]
 + Hongtao Liu, Aili Guan, Fayu Xing, Yunpeng Zhang, Wencheng Wang, and Guoxu Liu. **Cardiac index adaptive physiological control system for continuous-flow left ventricular assist device**. Expert Systems with Applications, 291:128536, 2025. [[PDF](https://doi.org/10.1016/j.eswa.2025.128536)]
-+ Yujie Li, Guoxu Liu, Chunlei Chen, Sunkyoung Kang, and Andia Foroughi. **BeGuard: An LSTM–Fused Defense Model Against Deepfakes in Competitive Activities–Related Social Networks**. International Journal of Intelligent Systems, 1:1282012, 2025.
++ Yujie Li, Guoxu Liu, Chunlei Chen, Sunkyoung Kang, and Andia Foroughi. **BeGuard: an lstm–fused defense model against deepfakes in competitive activities–related social networks**. International Journal of Intelligent Systems, 1:1282012, 2025.
 
 ## 2024
 
-+ Guoxu Liu, Yonghui Zhang, Jun Liu, Deyong Liu, Chunlei Chen, Yujie Li, Xiujie Zhang, and Philippe Lyonel Touko Mbouembe. **An improved YOLOv7 model based on Swin Transformer and Trident Pyramid Networks for accurate tomato detection**. Frontiers in Plant Science, 15:1452821, 2024. [[PDF](https://doi.org/10.3389/fpls.2024.1452821)]
-+ Kun Li, Yonghui Zhang, Feng Wang, Guoxu Liu, and Xianmin Wei. **Deep Feature-Based Neighbor Similarity Hashing With Adversarial Learning for Cross-Modal Retrieval**. IEEE Access, 12:128559-128569, 2024. [[PDF](https://doi.org/10.1109/ACCESS.2024.3413186)]
++ Guoxu Liu, Yonghui Zhang, Jun Liu, Deyong Liu, Chunlei Chen, Yujie Li, Xiujie Zhang, and Philippe Lyonel Touko Mbouembe. **An improved YOLOv7 model based on swin transformer and trident pyramid networks for accurate tomato detection**. Frontiers in Plant Science, 15:1452821, 2024. [[PDF](https://doi.org/10.3389/fpls.2024.1452821)]
++ Kun Li, Yonghui Zhang, Feng Wang, Guoxu Liu, and Xianmin Wei. **Deep feature-Based neighbor similarity hashing with adversarial learning for cross-modal retrieval**. IEEE Access, 12:128559-128569, 2024. [[PDF](https://doi.org/10.1109/ACCESS.2024.3413186)]
 + Yi Li, Lei Chen, Cuiping Sun, Guoxu Liu, Chunlei Chen, and Yonghui Zhang. **Accurate stock price forecasting based on deep learning and hierarchical frequency decomposition**. IEEE Access, 12:49878-49894, 2024. [[PDF](https://doi.org/10.1109/ACCESS.2024.3384430)]
 + Philippe Lyonel Touko Mbouembe, Guoxu Liu*, Sungkyung Park, and Jae Ho Kim. **Accurate and fast detection of tomatoes based on improved YOLOv5s in natural environments**. Frontiers in Plant Science, 14:1292766, 2024. [[PDF](https://doi.org/10.3389/fpls.2023.1292766)]
 
@@ -36,7 +36,7 @@ author_profile: false
 
 ## 2022
 
-+ Guoxu Liu, Zengtian Hou, Hongtao Liu, Jun Liu, Wenjie Zhao, and Kun Li. **TomatoDet: Anchor-free Detector for Tomato Detection**. Frontiers in Plant Science, 13, 2022. [[PDF](https://doi.org/10.3389/fpls.2022.942875)]
++ Guoxu Liu, Zengtian Hou, Hongtao Liu, Jun Liu, Wenjie Zhao, and Kun Li. **TomatoDet: anchor-free detector for tomato detection**. Frontiers in Plant Science, 13, 2022. [[PDF](https://doi.org/10.3389/fpls.2022.942875)]
 + Jun Liu, Xuewei Wang, Wenqing Miao, and Guoxu Liu. **Tomato pest recognition algorithm based on improved YOLOv4**. Frontiers in Plant Science, 13:814681, 2022. [[PDF](https://doi.org/10.3389/fpls.2022.814681)]
 
 ## 2021

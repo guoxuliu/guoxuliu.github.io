@@ -16,7 +16,7 @@ author_profile: false
 
 ## Research Interests
 
-+ Computer Vision
++ Computer vision
 + Object detection
 
 ## Publications & Awards
