@@ -97,33 +97,33 @@ author_profile: false
             <img src="/images/people/wsy.webp" alt="" class="person-img">
             <p class="person-name">Shiyu Wang</p>
         </a>
-        <p class="person-info">2024-present</p>
+        <p class="person-info">2025-present</p>
     </div>
     <div class="person-card">
         <a href="/people/mizhaoying/" class="person-link">
             <img src="/images/people/mzy.webp" alt="" class="person-img">
             <p class="person-name">Zhaoying Mi</p>
         </a>
-        <p class="person-info">2024-present</p> 
+        <p class="person-info">2025-present</p> 
     </div>
     <div class="person-card">
         <a href="/people/zhouyifan/" class="person-link">
             <img src="/images/people/zyf.webp" alt="" class="person-img">
             <p class="person-name">Yifan Zhou</p>
         </a>
-        <p class="person-info">2024-present</p>
+        <p class="person-info">2025-present</p>
     </div>
     <div class="person-card">
         <a href="/people/wuqingfeng/" class="person-link">
             <img src="/images/people/wqf.webp" alt="" class="person-img">
             <p class="person-name">Qingfeng Wu</p>
         </a>
-        <p class="person-info">2024-present</p>
+        <p class="person-info">2025-present</p>
     </div>
     <div class="person-card">
         <img src="/images/people/jhx.webp" alt="" class="person-img">
         <p class="person-name">Hongxin Jiang</p>
-        <p class="person-info">2024-present</p>
+        <p class="person-info">2025-present</p>
     </div>
 </div>
 
