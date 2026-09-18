@@ -30,20 +30,6 @@ author_profile: false
 # Undergraduates
 <div class="people-container">
     <div class="person-card">
-        <a href="/people/suqijia/" class="person-link">
-            <img src="/images/people/sqj.webp" alt="" class="person-img">
-            <p class="person-name">Qijia Su</p>
-        </a>
-        <p class="person-info">2024-present</p>
-    </div>
-    <div class="person-card">
-        <a href="/people/yuhanhao/" class="person-link">
-            <img src="/images/people/yhh.webp" alt="" class="person-img">
-            <p class="person-name">Hanhao Yu</p>
-        </a>
-        <p class="person-info">2024-present</p>
-    </div>
-    <div class="person-card">
         <a href="/people/xuqing/" class="person-link">
             <img src="/images/people/xq.webp" alt="" class="person-img">
             <p class="person-name">Qing Xu</p>
@@ -78,20 +64,19 @@ author_profile: false
         </a>
         <p class="person-info">2024-present</p>
     </div>
+
     <div class="person-card">
-        
             <img src="/images/people/gxy.webp" alt="" class="person-img">
             <p class="person-name">Xingyu Ge</p>
-        
         <p class="person-info">2025-present</p>
     </div>
+
     <div class="person-card">
-        
             <img src="/images/people/tft.webp" alt="" class="person-img">
             <p class="person-name">Fatong Tian</p>
-        
         <p class="person-info">2025-present</p>
     </div>
+
     <div class="person-card">
         <a href="/people/wangshiyu/" class="person-link">
             <img src="/images/people/wsy.webp" alt="" class="person-img">
@@ -99,6 +84,7 @@ author_profile: false
         </a>
         <p class="person-info">2025-present</p>
     </div>
+
     <div class="person-card">
         <a href="/people/mizhaoying/" class="person-link">
             <img src="/images/people/mzy.webp" alt="" class="person-img">
@@ -106,6 +92,7 @@ author_profile: false
         </a>
         <p class="person-info">2025-present</p> 
     </div>
+
     <div class="person-card">
         <a href="/people/zhouyifan/" class="person-link">
             <img src="/images/people/zyf.webp" alt="" class="person-img">
@@ -113,6 +100,7 @@ author_profile: false
         </a>
         <p class="person-info">2025-present</p>
     </div>
+
     <div class="person-card">
         <a href="/people/wuqingfeng/" class="person-link">
             <img src="/images/people/wqf.webp" alt="" class="person-img">
@@ -120,17 +108,29 @@ author_profile: false
         </a>
         <p class="person-info">2025-present</p>
     </div>
-    <div class="person-card">
-        <img src="/images/people/jhx.webp" alt="" class="person-img">
-        <p class="person-name">Hongxin Jiang</p>
-        <p class="person-info">2025-present</p>
-    </div>
+
 </div>
 
 
-<!-- 
 # Alumni
+<!-- <div class="people-container">
+    <div class="person-card">
+        <a href="/people/suqijia/" class="person-link">
+            <img src="/images/people/sqj.webp" alt="" class="person-img">
+            <p class="person-name">Qijia Su</p>
+        </a>
+        <p class="person-info">2024-2026</p>
+    </div>
+    <div class="person-card">
+        <a href="/people/yuhanhao/" class="person-link">
+            <img src="/images/people/yhh.webp" alt="" class="person-img">
+            <p class="person-name">Hanhao Yu</p>
+        </a>
+        <p class="person-info">2024-2026</p>
+        <p class="person-info">Now Master at Taiyuan University of Technology</p>
+    </div>
+</div> -->
 
-+ [XXX]() (PhD 2021-2025, Now Post-doc at PolyU HK)
-+ [XXX]() (Master 2022-2025, Now Baidu)
--->
+
++ [Hanhao Yu](/people/yuhanhao/) (BEng 2022-2026, Now Master at Taiyuan University of Technology)
++ [Qijia Su](/people/suqijia/) (BEng 2022-2026)
