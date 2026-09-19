@@ -13,8 +13,8 @@ Contact
 
 <div class="contact-content">
   <p><strong>Email</strong>: <a href="mailto:liuguoxu@wfu.edu.cn">liuguoxu@wfu.edu.cn</a></p>
-  <p><strong>Address</strong>: [261061] No.5147 Dongfeng East Street, Weifang, Shandong Province, P.R.China (School of Computer Engineering, Room 7326)</p>
-  <p><strong>地址</strong>：山东省潍坊市奎文区东风东街5147号潍坊学院计算机工程学院7326室</p>
+  <p><strong>Address</strong>: [261061] No.5147 Dongfeng East Street, Weifang, Shandong Province, P.R.China (School of Computer Science and Artificial Intelligence, Room 7326)</p>
+  <p><strong>地址</strong>：山东省潍坊市奎文区东风东街5147号潍坊学院计算机与人工智能学院7326室</p>
  
   <!-- 电脑端内容：保留不变（已对齐） -->
   <div class="map-wrapper">
