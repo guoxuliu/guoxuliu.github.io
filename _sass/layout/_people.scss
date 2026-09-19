@@ -47,7 +47,7 @@
 .person-name {
     margin: 0; // 清除p标签默认边距，避免间距混乱
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.2;
     // 关键：删除 color: #333; 让文字继承.person-link的蓝色
     text-decoration: none !important; // 强制确保文字无下划线
