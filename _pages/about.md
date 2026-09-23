@@ -21,6 +21,7 @@ I am an associate professor in the [School of Computer Science and Artificial In
 
 News
 ======
++ [2026-09] One paper accepted to 2026 8th International Conference on Frontier Technologies of Information and Computer (ICFTIC2026).
 + [2025-10] One paper accepted to NTCI2025.
 + [2024-08] One paper accepted to Frontiers in Plant Science.
 
